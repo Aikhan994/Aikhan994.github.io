@@ -1,0 +1,81 @@
+*{margin: 0;}
+header{
+    display: flex;
+    height: 186px;
+align-items: center;
+}
+h1{
+    color: orangered;
+    font-size: 40px;
+    margin-left: 25px;
+}
+nav{
+    margin-left:400px;
+    
+}
+a{
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+    margin-left:70px;
+}
+.onas{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx5H4Luuij59VPPUeL2fbCH-nvncBgNhGnaUfmIUxdxY2O_palh3Bc6LPZ7Fcik8uOCmg&usqp=CAU);
+    width: 4000;
+    height: 584px;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    padding: 70px 0;
+
+}
+.onas>h2{
+    font-size: 60px;
+}
+.onas>p{
+    font-size: 50px;
+}
+.figurkig{
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+}
+.pustishka{
+    display:flex;
+    justify-content: space-around;
+    margin: 13px;
+
+}
+.pustishka img{
+    width: 318px;
+    height: 311px;
+}
+.pustishka>div{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;}
+    .pustishka p{
+        font-size: 38px;
+        color: aliceblue;
+background: linear-gradient(red,yellow,orangered,green,lightblue);
+padding: 7px;
+
+    }
+    .figurkig>h2{
+        display: flex;
+        justify-content: center;
+        font-size:42px;
+        align-items: center;}
+    
+ .glina{
+    display: flex;
+   justify-content:space-around ;}
+.nichego img{ 
+ width: 486px;
+ height: 386px;
+}
+.nichego p{
+    font-size: 14px;
+}
